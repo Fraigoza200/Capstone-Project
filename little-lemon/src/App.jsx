@@ -1,13 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+import './App.css';
 import Home from './Components/Home';
+import MainCard from './Components/MainCard';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <Home />
-  )
+    <>
+      <Home />
+      <MainCard />
+    </>
+  );
 }
 
-export default App
+export default App;
