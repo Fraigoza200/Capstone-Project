@@ -1,4 +1,4 @@
-import './Main.css';
+import './MainCard.css';
 import CardList from './CardList.jsx';
 import greeksalad from '../assets/greek_salad.jpg';
 import bruschetta from '../assets/bruschetta.jpg';
@@ -31,9 +31,9 @@ function MainCard() {
   ]);
 
   return (
-    <CardList
-      cards={cards}
-    />
+    <div className="maincard">
+      <CardList cards={cards} />
+    </div>
   );
 }
 
