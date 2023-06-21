@@ -1,4 +1,4 @@
-
+import "./TestimonialList.css"
 const TestimonialList = ({testimonials}) => {
 
   return (

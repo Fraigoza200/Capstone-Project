@@ -1,5 +1,6 @@
 import { useState } from "react"
 import TestimonialList from "./TestimonialList"
+import "./Testimonials.css"
 
 const Testimonials = () => {
   const [testimonials, setTestimonials] = useState([

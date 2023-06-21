@@ -1,0 +1,17 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.test-card {
+  background-color: lightgray;
+  height: 100px;
+  justify-content: space-evenly;
+  margin: 5px;
+  border-radius: 10px;
+}
+.test-card > h2 {
+  margin: 10px;
+}
+.test-card > p {
+  padding: 10px;
+}
