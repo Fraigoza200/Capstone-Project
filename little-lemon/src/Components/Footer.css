@@ -1,0 +1,36 @@
+.footer-section {
+  margin-top: 25px;
+}
+
+.top-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1320px;
+  margin: auto;
+}
+.right-side {
+  height: 400px;
+  margin-left: 35px;
+  padding-left: 25px;
+}
+.right-side > img {
+  height: 100%;
+  border-radius: 10px;
+}
+.left-side {
+  margin-right: 35px;
+  padding-right: 25px;
+}
+
+.left-side > h1 {
+  font-size: 60px;
+  padding-top: 15px;
+}
+.left-side > h2 {
+  margin-top: 15px;
+  font-size: 35px;
+}
+.left-side > p {
+  margin-top: 25px;
+  line-height: 32px;
+}
