@@ -34,3 +34,18 @@
   margin-top: 25px;
   line-height: 32px;
 }
+.bottom-section {
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 1320px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.nav-footer {
+  cursor: pointer;
+}
+.nav-footer > ul {
+  list-style-type: none;
+}
