@@ -13,7 +13,7 @@ const Home = () => {
         <ul className="nav__links">
           <li>
             {' '}
-            <a href="">Home</a>{' '}
+            <a href="">Home</a>
           </li>
           <li>
             <a href="">About</a>
@@ -38,10 +38,7 @@ const Home = () => {
             <h1>Little Lemon</h1>
             <h3>Chicago</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              nobis corrupti, aliquam at perferendis rem placeat quasi velit
-              obcaecati mollitia error quae praesentium expedita a, nam vel
-              doloremque ea excepturi!Maxime
+              Little Lemon is a charming neighborhood bistro that serves simple food and classic cocktails in a lively but casual environment. The restaurant features a locally-source menu with daily specials.
             </p>
             <button>Reserve a Table</button>
           </div>

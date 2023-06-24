@@ -1,0 +1,20 @@
+.form-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1320px;
+  height: 400px;
+  margin: auto;
+  align-items: center;
+}
+.right-section {
+  border: 1px solid black;
+  height: 100%;
+}
+.form {
+  display: grid;
+  grid-template-rows: auto;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
